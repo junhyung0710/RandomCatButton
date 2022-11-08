@@ -10,7 +10,7 @@ import RandomButton from './RandomButton.js'
   useEffect(() => { 
     console.log('effect')
     axios
-      .get('https://api.thecatapi.com/v1/images/search?limit=25&has_breeds=1', 
+      .get('https://api.thecatapi.com/v1/images/search?limit=99&has_breeds=1', 
       {headers: {
       'x-api-key': `${access_token}`
         }

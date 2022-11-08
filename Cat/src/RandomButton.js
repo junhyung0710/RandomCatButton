@@ -3,7 +3,7 @@ import './App.css';
 export default function RandomButton({catData}) {
     const [tempLink, setTempLink] = useState("")
     function triggerRandom() {
-        let i = Math.floor(Math.random() * 25)
+        let i = Math.floor(Math.random() * 99)
         console.log(i)
         setTempLink(catData[i].url)
     }   
